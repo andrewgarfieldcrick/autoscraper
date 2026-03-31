@@ -46,7 +46,7 @@ jobs:
           git add output.json
 
           if ! git diff-index --quiet HEAD; then
-            git commit -m "📥 Updated output.json"
+            git commit -m "✔ Updated output.json @andrewgarfield"
             git push origin main
           else
             echo "No changes to push."
